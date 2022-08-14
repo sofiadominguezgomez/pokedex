@@ -1,0 +1,23 @@
+
+
+.pokedex-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5vh;
+}
+
+.pokedex-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 3vh;
+    padding: 0 1vh;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 20px;
+}

@@ -1,0 +1,25 @@
+.pagination {
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.text-pagination {
+    margin-left: 3vh;
+    margin-right: 3vh;
+    font-size: larger;
+}
+
+.pagination-btn {
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    padding: 1vh;
+}
+
+.arrow {
+    width: 3vh;
+    height: 3vh;
+}

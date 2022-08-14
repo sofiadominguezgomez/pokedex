@@ -1,0 +1,17 @@
+nav {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f42b03;
+}
+
+.logo {
+    width: 20vh;
+}
+
+.favoritos {
+    color: white;
+    font-size: larger;
+}

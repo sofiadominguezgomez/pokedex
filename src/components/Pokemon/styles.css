@@ -1,0 +1,146 @@
+.poke-card{
+    width: 50vh;
+    height: auto;
+    display: flex;
+    box-shadow: 0.5vh 0.5vh 0.5vh rgba(0, 0, 0, 0.25);
+    border-radius: 3vh;
+    margin: 2vh;
+    background-color: white;
+}
+
+picture {
+    padding: 0.5vh;
+}
+
+.pokemon-img {
+    height: 15vh;
+    width: auto;
+    margin-right: 1vh;
+    padding: 1vh;
+}
+
+.pokemon-type {
+    display: flex;
+}
+
+.pokemon-type-text {
+    margin-right: 3vh;
+    text-transform: capitalize;
+    padding: 1vh 2vh;
+    border-radius: 8vh;
+}
+
+.poke-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3vh 4vh 2vh 2vh;
+    flex: 1;
+}
+
+.poke-card-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poke-card-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poke-card-top h3 {
+    text-transform: capitalize;
+}
+
+.corazon {
+    height: 3vh;
+}
+
+.corazon-btn {
+    background-color: white;
+    border: none;
+}
+
+#grass {
+    background-color: #84a07c;
+}
+
+#poison {
+    color: white;
+    background-color: #b47eb3;
+}
+
+#fire {
+    background-color: #ff784f;
+}
+
+#water {
+    background-color: #5fbff9;
+}
+
+#flying {
+    color: white;
+    background-color: #818f9c;
+}
+
+#bug {
+    background-color: #f5eccd;
+}
+
+#normal {
+    background-color: #fceeb0;
+}
+
+#electric {
+    color: white;
+    background-color: #0995ec;
+}
+
+#ground {
+    color: white;
+    background-color: #886e44;
+}
+
+#fairy {
+    background-color: #d38888;
+}
+
+#fighting{
+    background-color: #e2c2ff;
+}
+
+#psychic{
+    background-color: #50c5b7;
+}
+
+#rock {
+    color: white;
+    background-color: #904e55;
+}
+
+#steel {
+    color: white;
+    background-color: #4d4847;
+}
+
+#ice {
+    background-color: #b0dffc;
+}
+
+#ghost {
+    background-color: #b3b6bd;
+}
+
+#dragon {
+    color: white;
+    background-color: #7f0799;
+}
+
+#dark {
+    color: white;
+    background-color: black;
+}
